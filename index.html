@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practicaHTML1-AplicacionesWeb</title>
+    <title class="encabezado">practicaHTML-AplicacionesWeb</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        P{
+            text-align: center;
+            color: red;
+        }
+
+        
+    </style>
 </head>
-<body>
+<body background="pilares.jpg">
+    <header>
+        <h1>Aplicacion WEB</h1>
+    </header>
+    <nav>
+        <ul>
+            <section id="seccion1">                <article>
+            <li> <a href="quiensoy.html">Quien soy?</a></li> 
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="redessociales.html">Redes Sociales</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    
+    </nav>
     <h1>HolaMundo</h1>
     <h2>HolaMundo</h2>
     <h3>HolaMundo</h3>
     <h4>HolaMundo</h4>
     <h5>HolaMundo</h5>
     <h6>HolaMundo</h6>
-    <p>Este es un parrafo!
+    <p class="encabezado"> Hola este es mi parrafo rojo?</p>
+
+    <p id="para1">Este es un parrafo!
         <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ad velit, quia adipisci aliquam, aut molestiae ex, fuga laboriosam tempora reprehenderit magni non qui voluptas harum incidunt cumque provident aspernatur.
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A velit id iusto culpa, omnis facere, mollitia dolore neque fugiat officia pariatur rerum, enim sit modi illum eveniet totam facilis nam?
+        <p id="para2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A velit id iusto culpa, omnis facere, mollitia dolore neque fugiat officia pariatur rerum, enim sit modi illum eveniet totam facilis nam?!
+
+    <p class="centrar"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A velit id iusto culpa, omnis facere, mollitia dolore neque fugiat officia pariatur rerum, enim sit modi illum eveniet totam facilis nam?!
+            
             <ul>
                 <li type= circle>Primer término de la lista
                     <ul>
@@ -25,7 +54,7 @@
                 <li type=square>Tercer término
                 </ul>
                 <!--comentario-->
-         <table>
+         <table border="1">
              <caption>PrimeraTabla</caption>
              <tr>
                  <th>Alumno</th>
@@ -33,9 +62,59 @@
              <tr>
                  <th>Trabajo</th>
                 </tr>
-             <td>celda1</td>
-             <td>Celda2
+             <td>celda</td>
+             <td>Celda1
              </td>
          </table>
+        </section>
+
+        <section id="seccion2">
+        <h1>Imagen Local</h1>
+        <img src="rengoku.jpg" width="80" alt="Rengoku Antes De Morir">
+        <h1>Imagen de internet</h1>
+        <img src="https://www.google.com/search?q=imagen+de+rengoku&rlz=1C1OKWM_esMX983MX983&sxsrf=ALiCzsYBCnWHL4eIqsauA3MzPw0s22qYtg:1653854722659&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi34oP6wIX4AhVXDkQIHWymAf8Q_AUoAXoECAEQAw#imgrc=iXINva3m_-rXwM" alt="Rengoku">
+   
+        
+        <h1>hipervinculos</h1>
+        <a href="https://www.google.com">google</a>
+        <a href="#craks">Craks</a>
+        <a href="#aprobados">aprobados</a>
+
+        <h1>Listas de reprobados</h1>
+        <ul>
+            <li>Tlatelpa</li>
+            <li>alexis</li>
+            <li>sayuri</li>
+            <li>brandon</li>
+        </ul>
+
+        <div> id="aprobados" </div>        
+        <h1>Listas de aprobados</h1>
+        <ol>
+            <li>Tlatelpa</li>
+            <li>alexis</li>
+            <li>sayuri</li>
+            <li>brandon</li>
+        </ol>
+       
+
+    <div id="craks">
+        <h1>Listas de craks</h1>
+        <ol type="a">
+            <li>Tlatelpa</li>
+            <li>alexis</li>
+            <li>sayuri</li>
+            <li>brandon</li>
+        </div>
+        </ol>
+    </article>
+</section>
+   
+
+        <footer id="piePagina">
+<p>Derechos de Autor Reservados para Carlos Sevilla Fonseca "EL DIOS"</p>
+<p>Contactar al telefono 7772627847</p>
+        </footer>
+
 </body>
 </html>
